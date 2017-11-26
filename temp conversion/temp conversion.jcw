@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>temp conversion</label>
+		<id>23</id>
+		<version>0</version>
+	</settings>
+	<users>
+		<user>
+			<path>temp conversion.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>temp conversion.jcp</path>
+		</project>
+	</projects>
+</workspace>

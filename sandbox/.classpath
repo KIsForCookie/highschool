@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="res"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="res/jmf-2.1.1e.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/customizer.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/jmf.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/mediaplayer.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/multiplayer.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/jmf.properties"/>
+	<classpathentry exported="true" kind="lib" path="res/javafx-beans-dt.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/javafx-designtime.jar"/>
+	<classpathentry exported="true" kind="lib" path="res/SceneBuilder.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,8 @@
+Thank You For Playing Areg's Craps Game!
+
+ Here is a quick summary of your game:
+ The player has brought  500$ to the table.
+ The player has left with  600$.
+ The player has won  2  time(s).
+ The player has lost  1  time(s).
+ The player has played a total of 3 game(s).

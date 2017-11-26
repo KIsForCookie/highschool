@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>craps</label>
+		<id>72</id>
+		<version>0</version>
+	</settings>
+	<users>
+		<user>
+			<path>craps.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>craps.jcp</path>
+		</project>
+	</projects>
+</workspace>

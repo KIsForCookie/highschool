@@ -1,0 +1,54 @@
+TO DO
+- dealing					[x]
+- betting/pot				[x]
+- build deck				[x]
+- separate hands			[x]
+- players					[x]
+- ai						[ ]
+- areg's animation shit		[/]
+- MOTHERFUCKING GRAPHICS	[ ]
+
+GUI has to be in a JPanel
+
+deck = stack
+discard pile
+ArrayList.remove()
+for(int cardsleft = discardsize; cardsleft>0; cardsleft--({
+		int a = (int)Math.random*cardsleft;
+}
+
+
+high
+pair
+two pair
+three of a kind
+straight
+flush
+full house
+four of a kind
+straight flush
+royal flush
+
+
+person to left of dealer starts betting, continues clockwise
+everyone antes
+everyone gets opportunity to bet
+check, call or raise
+continue until no one raises
+
+after 1st round of betting each 
+player still in can ask for between 0 and 3 cards
+each player discards <amount> cards and 
+gets <amount> cards from the dealer
+
+2nd round of betting continues until no one raises
+(minBet resets to 0)
+show cards unless all but one fold
+
+
+p1 checks
+p2 bets 10
+p3 call	<10>
+p4 call <10>
+p1 fold
+

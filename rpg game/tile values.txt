@@ -1,0 +1,20 @@
+nothing = 0 *
+
+dirt wall = 1*
+
+dirt floor = 2*
+
+stone wall = 3 *
+
+stone floor = 4*
+
+door = 5*
+
+upstairs = 6*
+
+downstairs = 7*
+
+grass = 8*
+
+player = 9*
+

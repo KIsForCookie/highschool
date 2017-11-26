@@ -1,0 +1,19 @@
+ <HTML>
+<HEAD>
+<TITLE>TEMPERATURE CONVERTER</TITLE>
+</HEAD>
+
+<BODY>
+<H1>TEMPERATURE CONVERTER</H1>
+<UL>
+<LI>Enter degrees Fahrenheit or degrees Celcius.
+<LI>List the <STRONG>Convert&gt;&gt;&gt;</STRONG> or the <STRONG>&lt;&lt;&lt;Convert</STRONG> button to display the equivilant temperature
+</UL>
+
+<APPLET CODE = "Gui.class" WIDTH = 350 HEIGHT = 100> </APPLET>
+
+
+<P> By Alex
+
+</BODY>
+</HTML>

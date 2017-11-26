@@ -1,0 +1,67 @@
+X size of dungeon: 	80
+Y size of dungeon: 	25
+max # of objects: 	10
+# of objects made: 	10
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+O                                                                              O
+O                                                                              O
+O                                 +++++                                        O
+O                                 +...++++++++                                 O
+O                                 +...++.....+                                 O
+O                                 +...D......+++++++                           O
+O                                 +...+++++++++....+                           O
+O                                 ++.++    ###D..<.+                           O
+O                                 ++D++++     +....+                           O
+O                                 +.....+     +....+                           O
+O                            #####D...>.+     +++.++                           O
+O                                 +.....+    ++++D+                            O
+O                                 +.....+    +....+                            O
+O                                 ++++D++    +....+                            O
+O                                  +++.+++   +++.++                            O
+O                                  +.....+    ++D+++++                         O
+O                                  +.....++++++......+                         O
+O                                  +.....++..D.......+                         O
+O                                  +.....D...++......+                         O
+O                                  +++++++++++++++++++                         O
+O                                                                              O
+O                                                                              O
+O                                                                              O
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+		public void showDungeon(){
+			for (int y = 0; y < ysize; y++){
+				for (int x = 0; x < xsize; x++){
+					//System.out.print(getCell(x, y));
+					switch(getCell(x, y)){
+					case tileUnused:
+						System.out.print("0");
+						break;
+					case tileDirtWall:
+						System.out.print("2");
+						break;
+					case tileDirtFloor:
+						System.out.print("3");
+						break;
+					case tileStoneWall:
+						System.out.print("1");
+						break;
+					case tileCorridor:
+						System.out.print("4");
+						break;
+					case tileDoor:
+						System.out.print("5");
+						break;
+					case tileUpStairs:
+						System.out.print("6");
+						break;
+					case tileDownStairs:
+						System.out.print("7");
+						break;
+					case tileChest:
+						System.out.print("8");
+						break;
+					};
+				}
+				if (xsize <= xmax) System.out.println();
+			}
+		}
